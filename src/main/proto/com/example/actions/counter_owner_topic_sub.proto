@@ -1,0 +1,18 @@
+syntax = "proto3";
+package com.example.actions;
+
+import "kalix/annotations.proto";
+import "com/example/actions/counter_owner_topic.proto"; // <1>
+import "google/protobuf/empty.proto";
+
+service CounterOwnerTopicSubscription {
+  option (kalix.codegen) = {
+    action: {}
+  };
+
+  rpc Add (com.example.actions.Added) returns (google.protobuf.Empty) {
+    option (kalix.method).eventing.in = {
+      topic: "counter-owner-events"
+    };
+  }
+}

@@ -1,0 +1,33 @@
+syntax = "proto3";
+
+package com.example.actions;
+
+import "kalix/annotations.proto";
+import "com/example/domain/counter_owner_domain.proto"; // <1>
+import "google/protobuf/empty.proto";
+import "google/protobuf/any.proto";
+
+message Added {
+  string name = 1;
+}
+
+service CounterOwnerJournalToTopic {
+  option (kalix.codegen) = {
+    action: {}
+  };
+
+  rpc Add (com.example.domain.CounterOwnerAdded) returns (Added) {
+    option (kalix.method).eventing.in = {
+      event_sourced_entity: "counter_owner"
+    };
+    option (kalix.method).eventing.out = {
+      topic: "counter-owner-events"
+    };
+  }
+
+  rpc Ignore(google.protobuf.Any) returns (google.protobuf.Empty) {
+    option (kalix.method).eventing.in = {
+      event_sourced_entity: "counter_owner"
+    };
+  }
+}

@@ -1,0 +1,1717 @@
+2022.06.21 11:13:34 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/lsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.21 11:13:35 INFO  logging to file /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/metals.log
+2022.06.21 11:13:35 INFO  Started: Metals version 0.11.6 in workspace '/Users/jackpines/src/Lightbend/scala-eventsourced-counter' for client Visual Studio Code 1.68.1.
+2022.06.21 11:13:36 INFO  time: initialize in 1.09s
+2022.06.21 11:13:37 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.21 11:13:37 WARN  Build server is not auto-connectable.
+2022.06.21 11:13:41 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals1743706574968713590/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.21 11:13:41 WARN  no build target for: /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/metals.sbt
+2022.06.21 11:13:41 WARN  no build target for: /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/metals.sbt
+2022.06.21 11:13:41 INFO  skipping build import with status 'Started'
+2022.06.21 11:13:45 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.21 11:13:47 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.21 11:13:51 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.21 11:13:51 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.21 11:13:53 INFO  no build target found for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/metals.sbt. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.21 11:13:54 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.21 11:13:54 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.21 11:13:57 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.21 11:13:57 INFO  [success] Total time: 2 s, completed Jun 21, 2022, 11:13:57 AM
+2022.06.21 11:13:58 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.21 11:13:58 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.21 11:14:00 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.21 11:14:00 INFO  [success] Total time: 2 s, completed Jun 21, 2022, 11:14:00 AM
+2022.06.21 11:14:05 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.21 11:14:05 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.21 11:14:07 INFO  [info] Compiling 16 protobuf files to /Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/test,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/kalix-unmanaged-test,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/src_managed/test
+2022.06.21 11:14:07 INFO  [info] Compiling 16 protobuf files to /Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/main,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/src_managed/main,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/kalix-unmanaged
+2022.06.21 11:14:07 ERROR com/example/counter_api.proto:6:1: warning: Import google/api/annotations.proto is unused.
+2022.06.21 11:14:07 ERROR com/example/counter_api.proto:6:1: warning: Import google/api/annotations.proto is unused.
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterJournalToTopic
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterTopicSubscription
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC service interface for com.example.CounterService
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterJournalToTopic
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterTopicSubscription
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC service interface for com.example.CounterService
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterJournalToTopic
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterTopicSubscription
+2022.06.21 11:14:11 INFO  [info] Generating Akka gRPC client for com.example.CounterService
+2022.06.21 11:14:12 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterJournalToTopic
+2022.06.21 11:14:12 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterTopicSubscription
+2022.06.21 11:14:12 INFO  [info] Generating Akka gRPC client for com.example.CounterService
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:14:12 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:14:13 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:14:14 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:14:14 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.21 11:14:14 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.21 11:14:14 INFO  [success] Total time: 9 s, completed Jun 21, 2022, 11:14:14 AM
+2022.06.21 11:14:15 INFO  time: ran 'sbt bloopInstall' in 33s
+2022.06.21 11:14:15 INFO  Attempting to connect to the build server...
+2022.06.21 11:14:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 11:14:15 INFO  Attempting to connect to the build server...
+2022.06.21 11:14:15 INFO  Attempting to connect to the build server...
+2022.06.21 11:14:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 11:14:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 11:14:15 INFO  time: Connected to build server in 0.78s
+2022.06.21 11:14:15 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.21 11:14:32 INFO  time: indexed workspace in 16s
+2022.06.21 11:15:13 INFO  compiling scala-eventsourced-counter (94 scala sources)
+Jun 21, 2022 11:15:15 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7
+Jun 21, 2022 11:15:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9
+Jun 21, 2022 11:15:16 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+Jun 21, 2022 11:15:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 11
+Jun 21, 2022 11:15:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Jun 21, 2022 11:15:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+Jun 21, 2022 11:15:18 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 12
+2022.06.21 11:15:39 INFO  compiling scala-eventsourced-counter-test (85 scala sources)
+2022.06.21 11:15:39 INFO  time: compiled scala-eventsourced-counter in 26s
+2022.06.21 11:15:52 INFO  time: compiled scala-eventsourced-counter-test in 13s
+2022.06.21 11:17:57 INFO  time: code lens generation in 2.94s
+2022.06.21 11:18:43 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals4692530123734499268/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.21 11:18:45 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.21 11:18:47 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.21 11:18:48 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.21 11:18:48 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.21 11:18:48 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.21 11:18:48 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.21 11:18:51 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.21 11:18:51 INFO  [success] Total time: 2 s, completed Jun 21, 2022, 11:18:51 AM
+2022.06.21 11:18:53 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.21 11:18:53 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.21 11:18:55 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.21 11:18:55 INFO  [success] Total time: 2 s, completed Jun 21, 2022, 11:18:56 AM
+2022.06.21 11:19:00 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.21 11:19:00 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.21 11:19:01 INFO  [info] Compiling 17 protobuf files to /Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/main,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/src_managed/main,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/kalix-unmanaged
+2022.06.21 11:19:01 INFO  [info] Compiling 17 protobuf files to /Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/test,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/kalix-unmanaged-test,/Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/src_managed/test
+2022.06.21 11:19:01 ERROR com/example/counter_api.proto:6:1: warning: Import google/api/annotations.proto is unused.
+2022.06.21 11:19:01 ERROR com/example/counter_api.proto:6:1: warning: Import google/api/annotations.proto is unused.
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterJournalToTopic
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterTopicSubscription
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC service interface for com.example.CounterService
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterJournalToTopic
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC service interface for com.example.actions.CounterTopicSubscription
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC service interface for com.example.CounterService
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterJournalToTopic
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterTopicSubscription
+2022.06.21 11:19:04 INFO  [info] Generating Akka gRPC client for com.example.CounterService
+2022.06.21 11:19:05 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterJournalToTopic
+2022.06.21 11:19:05 INFO  [info] Generating Akka gRPC client for com.example.actions.CounterTopicSubscription
+2022.06.21 11:19:05 INFO  [info] Generating Akka gRPC client for com.example.CounterService
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/acl.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:19:05 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/acl.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/acl.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:19:06 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:19:06 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.21 11:19:07 INFO  compiling scala-eventsourced-counter (4 scala sources)
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor com/example/actions/counter_topic_sub.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor com/example/counter_api.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor com/example/domain/counter_domain.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor google/api/annotations.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor google/api/client.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor google/api/field_behavior.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor google/api/http.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor google/api/httpbody.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor google/api/resource.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/acl.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/annotations.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/component.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/entity.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/eventing.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/jwt.proto
+2022.06.21 11:19:07 INFO  [DEBUG] Looking at descriptor kalix/views.proto
+2022.06.21 11:19:07 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.21 11:19:07 INFO  [success] Total time: 7 s, completed Jun 21, 2022, 11:19:07 AM
+2022.06.21 11:19:08 INFO  time: ran 'sbt bloopInstall' in 24s
+2022.06.21 11:19:08 INFO  Disconnecting from Bloop session...
+2022.06.21 11:19:08 INFO  Shut down connection with build server.
+2022.06.21 11:19:08 INFO  Shut down connection with build server.
+2022.06.21 11:19:08 INFO  Shut down connection with build server.
+2022.06.21 11:19:08 INFO  Attempting to connect to the build server...
+2022.06.21 11:19:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 11:19:08 INFO  Attempting to connect to the build server...
+2022.06.21 11:19:08 INFO  Attempting to connect to the build server...
+2022.06.21 11:19:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 11:19:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.21 11:19:08 INFO  time: Connected to build server in 91ms
+2022.06.21 11:19:08 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.21 11:19:10 INFO  time: indexed workspace in 2.67s
+2022.06.21 11:19:11 INFO  compiling scala-eventsourced-counter (97 scala sources)
+2022.06.21 11:19:16 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 7.843s)
+2022.06.21 11:19:16 INFO  compiling scala-eventsourced-counter (97 scala sources)
+2022.06.21 11:19:20 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 12.106s)
+2022.06.21 11:19:20 INFO  time: compiled scala-eventsourced-counter in 4.38s
+2022.06.21 11:19:20 INFO  compiling scala-eventsourced-counter-test (88 scala sources)
+2022.06.21 11:19:20 INFO  compiling scala-eventsourced-counter-test (88 scala sources)
+2022.06.21 11:19:27 INFO  time: compiled scala-eventsourced-counter-test in 7.14s
+2022.06.21 11:19:28 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.21 11:19:28 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.21 11:19:28 INFO  Starting debug proxy for [com.example.domain.CounterSpec()]
+2022.06.21 11:19:29 INFO  Trying to attach to remote debuggee VM localhost:58103 .
+2022.06.21 11:19:29 INFO  Attaching to debuggee VM succeeded.
+2022.06.21 11:19:30 INFO  Canceling debug proxy for [com.example.domain.CounterSpec()]
+2022.06.21 11:19:29 INFO  Closing debug server tcp://0.0.0.0:58098
+Jun 21, 2022 11:19:30 AM org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SEVERE: java.net.SocketException: Socket closed
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.net.SocketException: Socket closed
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.debug.SocketEndpoint.consume(SocketEndpoint.scala:22)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.consume(MessageIdAdapter.scala:43)
+	at scala.meta.internal.metals.debug.ServerAdapter.send(ServerAdapter.scala:30)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$handleClientMessage$1(DebugProxy.scala:146)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.$anonfun$listen$1(MessageIdAdapter.scala:57)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at scala.meta.internal.metals.debug.SocketEndpoint.listen(SocketEndpoint.scala:26)
+	at scala.meta.internal.metals.debug.MessageIdAdapter.listen(MessageIdAdapter.scala:47)
+	at scala.meta.internal.metals.debug.DebugProxy.$anonfun$listenToClient$1(DebugProxy.scala:65)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.net.SocketException: Socket closed
+	at java.base/java.net.SocketOutputStream.socketWrite(SocketOutputStream.java:113)
+	at java.base/java.net.SocketOutputStream.write(SocketOutputStream.java:150)
+	at java.base/java.io.BufferedOutputStream.flushBuffer(BufferedOutputStream.java:81)
+	at java.base/java.io.BufferedOutputStream.flush(BufferedOutputStream.java:142)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:69)
+	... 16 more
+
+2022.06.21 11:26:48 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 7m 40.497s)
+2022.06.21 11:26:48 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 7m 40.52s)
+2022.06.21 11:26:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.21 11:26:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.21 11:26:49 INFO  Starting debug proxy for [com.example.actions.CounterTopicSubscriptionActionSpec()]
+2022.06.21 11:26:52 INFO  Trying to attach to remote debuggee VM localhost:58407 .
+2022.06.21 11:26:52 INFO  Attaching to debuggee VM succeeded.
+2022.06.21 11:26:52 INFO  Canceling debug proxy for [com.example.actions.CounterTopicSubscriptionActionSpec()]
+2022.06.21 11:26:52 INFO  Closing debug server tcp://0.0.0.0:58401
+2022.06.21 11:27:10 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 8m 2.584s)
+2022.06.21 11:27:10 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 8m 2.613s)
+2022.06.21 11:27:10 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.21 11:27:10 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.21 11:27:11 INFO  Starting debug proxy for [com.example.actions.CounterJournalToTopicActionSpec()]
+2022.06.21 11:27:12 INFO  Trying to attach to remote debuggee VM localhost:58428 .
+2022.06.21 11:27:12 INFO  Attaching to debuggee VM succeeded.
+2022.06.21 11:27:13 INFO  Canceling debug proxy for [com.example.actions.CounterJournalToTopicActionSpec()]
+2022.06.21 11:27:12 INFO  Closing debug server tcp://0.0.0.0:58423
+2022.06.21 13:43:18 INFO  compiling scala-eventsourced-counter (4 scala sources)
+2022.06.21 13:43:18 INFO  time: compiled scala-eventsourced-counter in 0.38s
+2022.06.21 13:43:18 INFO  compiling scala-eventsourced-counter (4 scala sources)
+2022.06.21 13:43:19 INFO  time: compiled scala-eventsourced-counter in 0.26s
+2022.06.21 15:07:30 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3h 48m 22.087s)
+2022.06.21 15:07:30 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3h 48m 22.163s)
+2022.06.21 15:07:30 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.21 15:07:30 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.21 15:07:30 INFO  Starting debug proxy for [com.example.actions.CounterJournalToTopicActionSpec()]
+2022.06.21 15:07:36 INFO  Trying to attach to remote debuggee VM localhost:49688 .
+2022.06.21 15:07:36 INFO  Attaching to debuggee VM succeeded.
+2022.06.21 15:07:37 INFO  Canceling debug proxy for [com.example.actions.CounterJournalToTopicActionSpec()]
+2022.06.21 15:07:37 INFO  Closing debug server tcp://0.0.0.0:49682
+2022.06.21 15:07:54 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3h 48m 46.796s)
+2022.06.21 15:07:54 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3h 48m 46.825s)
+2022.06.21 15:07:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.21 15:07:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.21 15:07:55 INFO  Starting debug proxy for [com.example.actions.CounterJournalToTopicActionSpec()]
+2022.06.21 15:07:57 INFO  Trying to attach to remote debuggee VM localhost:49708 .
+2022.06.21 15:07:57 INFO  Attaching to debuggee VM succeeded.
+2022.06.21 15:07:58 INFO  Canceling debug proxy for [com.example.actions.CounterJournalToTopicActionSpec()]
+2022.06.21 15:07:58 INFO  Closing debug server tcp://0.0.0.0:49703
+2022.06.21 15:08:23 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3h 49m 14.969s)
+2022.06.21 15:08:23 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3h 49m 15.015s)
+2022.06.21 15:08:23 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.21 15:08:23 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.21 15:08:23 INFO  Starting debug proxy for [com.example.domain.CounterSpec()]
+2022.06.21 15:08:27 INFO  Trying to attach to remote debuggee VM localhost:49733 .
+2022.06.21 15:08:27 INFO  Attaching to debuggee VM succeeded.
+2022.06.21 15:08:28 INFO  Canceling debug proxy for [com.example.domain.CounterSpec()]
+2022.06.21 15:08:28 INFO  Closing debug server tcp://0.0.0.0:49727
+2022.06.24 15:48:06 INFO  Shut down connection with build server.
+2022.06.24 15:48:06 INFO  Shut down connection with build server.
+2022.06.24 15:48:06 INFO  Shut down connection with build server.
+2022.06.24 15:50:35 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/lsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.24 15:50:38 INFO  logging to file /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/metals.log
+2022.06.24 15:50:38 INFO  Started: Metals version 0.11.6 in workspace '/Users/jackpines/src/Lightbend/scala-eventsourced-counter' for client Visual Studio Code 1.68.1.
+2022.06.24 15:50:41 INFO  time: initialize in 3.2s
+2022.06.24 15:50:43 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.24 15:50:44 INFO  Attempting to connect to the build server...
+2022.06.24 15:50:44 INFO  skipping build import with status 'Installed'
+2022.06.24 15:50:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.24 15:51:00 INFO  Attempting to connect to the build server...
+2022.06.24 15:51:00 INFO  Attempting to connect to the build server...
+2022.06.24 15:51:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.24 15:51:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.24 15:51:00 INFO  time: Connected to build server in 16s
+2022.06.24 15:51:00 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.24 15:51:00 INFO  time: Imported build in 0.5s
+2022.06.24 15:51:25 INFO  time: indexed workspace in 24s
+2022.06.27 10:40:08 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 10:40:21 INFO  time: code lens generation in 18s
+2022.06.27 10:40:21 INFO  time: code lens generation in 14s
+2022.06.27 10:40:21 INFO  time: code lens generation in 3.14s
+Exception in thread "pool-4-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+2022.06.27 10:40:22 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals5849578183766758232/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+Jun 27, 2022 10:40:22 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: jar%3Afile%3A%2F%2F%2FUsers%2Fjackpines%2FLibrary%2FCaches%2FCoursier%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-library%2F2.12.15%2Fscala-library-2.12.15-sources.jar%21%2Fscala%2Fcollection%2FSeq.scala:20: error: ; expected but package found
+package collection
+^
+jar%3Afile%3A%2F%2F%2FUsers%2Fjackpines%2FLibrary%2FCaches%2FCoursier%2Fv1%2Fhttps%2Frepo1.maven.org%2Fmaven2%2Forg%2Fscala-lang%2Fscala-library%2F2.12.15%2Fscala-library-2.12.15-sources.jar%21%2Fscala%2Fcollection%2FSeq.scala:20: error: ; expected but package found
+package collection
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:352)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:356)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:370)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:374)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4308)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4308)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4261)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.06.27 10:40:27 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 10:40:28 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.27 10:40:29 INFO  time: compiled scala-eventsourced-counter in 21s
+2022.06.27 10:40:33 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.27 10:40:33 INFO  time: compiled scala-eventsourced-counter-test in 6.29s
+2022.06.27 10:40:37 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.27 10:40:37 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.27 10:40:37 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.27 10:40:38 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.27 10:40:42 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.27 10:40:42 INFO  [success] Total time: 4 s, completed Jun 27, 2022, 10:40:42 AM
+2022.06.27 10:40:42 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.27 10:40:42 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.27 10:40:44 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.27 10:40:44 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 10:40:45 AM
+2022.06.27 10:40:54 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.27 10:40:54 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.27 10:40:59 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.27 10:40:59 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.27 10:40:59 INFO  [success] Total time: 4 s, completed Jun 27, 2022, 10:40:59 AM
+2022.06.27 10:40:59 INFO  time: ran 'sbt bloopInstall' in 37s
+2022.06.27 10:40:59 INFO  Disconnecting from Bloop session...
+2022.06.27 10:40:59 INFO  Shut down connection with build server.
+2022.06.27 10:40:59 INFO  Shut down connection with build server.
+2022.06.27 10:40:59 INFO  Shut down connection with build server.
+2022.06.27 10:40:59 INFO  Attempting to connect to the build server...
+2022.06.27 10:40:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 10:40:59 INFO  Attempting to connect to the build server...
+2022.06.27 10:40:59 INFO  Attempting to connect to the build server...
+2022.06.27 10:40:59 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 10:41:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 10:40:59 INFO  time: Connected to build server in 0.15s
+2022.06.27 10:40:59 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 10:41:09 INFO  time: indexed workspace in 9.17s
+2022.06.27 10:41:17 INFO  time: code lens generation in 7.04s
+Jun 27, 2022 10:50:58 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 31
+Jun 27, 2022 11:09:55 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 43
+2022.06.27 12:12:14 INFO  compiling scala-eventsourced-counter (4 scala sources)
+2022.06.27 12:12:16 INFO  time: compiled scala-eventsourced-counter in 1.67s
+2022.06.27 12:12:16 INFO  compiling scala-eventsourced-counter (2 scala sources)
+2022.06.27 12:12:20 INFO  compiling scala-eventsourced-counter-test (2 scala sources)
+2022.06.27 12:12:20 INFO  time: compiled scala-eventsourced-counter in 4.04s
+2022.06.27 12:12:21 INFO  time: compiled scala-eventsourced-counter-test in 1.83s
+2022.06.27 13:48:16 INFO  compiling scala-eventsourced-counter (4 scala sources)
+2022.06.27 13:48:16 INFO  time: compiled scala-eventsourced-counter in 0.49s
+2022.06.27 13:48:16 INFO  compiling scala-eventsourced-counter (33 scala sources)
+2022.06.27 13:48:26 INFO  time: compiled scala-eventsourced-counter in 8.9s
+2022.06.27 13:48:26 INFO  compiling scala-eventsourced-counter (27 scala sources)
+2022.06.27 13:48:27 INFO  time: compiled scala-eventsourced-counter in 1.07s
+2022.06.27 13:48:31 INFO  compiling scala-eventsourced-counter (33 scala sources)
+2022.06.27 13:48:36 INFO  time: compiled scala-eventsourced-counter in 4.64s
+2022.06.27 13:48:36 INFO  compiling scala-eventsourced-counter (27 scala sources)
+2022.06.27 13:48:36 INFO  time: compiled scala-eventsourced-counter in 0.73s
+Jun 27, 2022 1:48:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+2022.06.27 13:49:03 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:49:03 INFO  time: compiled scala-eventsourced-counter in 0.12s
+2022.06.27 13:49:05 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:49:05 INFO  time: compiled scala-eventsourced-counter in 0.11s
+2022.06.27 13:49:07 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:49:07 INFO  time: compiled scala-eventsourced-counter in 0.11s
+2022.06.27 13:49:09 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:49:09 INFO  time: compiled scala-eventsourced-counter in 0.62s
+2022.06.27 13:49:50 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:49:50 INFO  time: compiled scala-eventsourced-counter in 0.1s
+2022.06.27 13:49:52 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:49:52 INFO  time: compiled scala-eventsourced-counter in 0.65s
+2022.06.27 13:50:24 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:24 INFO  time: compiled scala-eventsourced-counter in 97ms
+2022.06.27 13:50:26 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:26 INFO  time: compiled scala-eventsourced-counter in 0.53s
+2022.06.27 13:50:43 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:43 INFO  time: compiled scala-eventsourced-counter in 90ms
+2022.06.27 13:50:44 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:44 INFO  time: compiled scala-eventsourced-counter in 74ms
+2022.06.27 13:50:46 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:46 INFO  time: compiled scala-eventsourced-counter in 75ms
+2022.06.27 13:50:48 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:48 INFO  time: compiled scala-eventsourced-counter in 82ms
+2022.06.27 13:50:50 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:50:50 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 13:51:02 INFO  compiling scala-eventsourced-counter (34 scala sources)
+2022.06.27 13:51:06 INFO  time: compiled scala-eventsourced-counter in 3.47s
+2022.06.27 13:53:16 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:16 INFO  time: compiled scala-eventsourced-counter in 54ms
+2022.06.27 13:53:18 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:18 INFO  time: compiled scala-eventsourced-counter in 79ms
+2022.06.27 13:53:19 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:19 INFO  time: compiled scala-eventsourced-counter in 98ms
+2022.06.27 13:53:21 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:21 INFO  time: compiled scala-eventsourced-counter in 70ms
+2022.06.27 13:53:22 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:22 INFO  time: compiled scala-eventsourced-counter in 79ms
+2022.06.27 13:53:23 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:23 INFO  time: compiled scala-eventsourced-counter in 73ms
+2022.06.27 13:53:25 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:53:25 INFO  time: compiled scala-eventsourced-counter in 0.66s
+2022.06.27 13:54:17 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:17 INFO  time: compiled scala-eventsourced-counter in 77ms
+2022.06.27 13:54:30 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:30 INFO  time: compiled scala-eventsourced-counter in 77ms
+2022.06.27 13:54:31 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:31 INFO  time: compiled scala-eventsourced-counter in 81ms
+2022.06.27 13:54:33 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:33 INFO  time: compiled scala-eventsourced-counter in 54ms
+2022.06.27 13:54:36 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:36 INFO  time: compiled scala-eventsourced-counter in 97ms
+2022.06.27 13:54:42 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:42 INFO  time: compiled scala-eventsourced-counter in 86ms
+2022.06.27 13:54:47 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:47 INFO  time: compiled scala-eventsourced-counter in 72ms
+2022.06.27 13:54:49 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:54:49 INFO  time: compiled scala-eventsourced-counter in 85ms
+Jun 27, 2022 1:54:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 676
+2022.06.27 13:55:06 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:55:06 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 13:55:28 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:55:28 INFO  time: compiled scala-eventsourced-counter in 87ms
+2022.06.27 13:55:34 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:55:34 INFO  time: compiled scala-eventsourced-counter in 83ms
+2022.06.27 13:55:46 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:55:46 INFO  time: compiled scala-eventsourced-counter in 78ms
+2022.06.27 13:55:49 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:55:49 INFO  time: compiled scala-eventsourced-counter in 55ms
+2022.06.27 13:55:52 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:55:52 INFO  time: compiled scala-eventsourced-counter in 82ms
+2022.06.27 13:56:00 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:00 INFO  time: compiled scala-eventsourced-counter in 86ms
+2022.06.27 13:56:02 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:02 INFO  time: compiled scala-eventsourced-counter in 0.12s
+2022.06.27 13:56:04 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:04 INFO  time: compiled scala-eventsourced-counter in 87ms
+2022.06.27 13:56:09 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:09 INFO  time: compiled scala-eventsourced-counter in 0.68s
+2022.06.27 13:56:17 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:17 INFO  time: compiled scala-eventsourced-counter in 0.7s
+2022.06.27 13:56:27 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:27 INFO  time: compiled scala-eventsourced-counter in 83ms
+2022.06.27 13:56:29 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:29 INFO  time: compiled scala-eventsourced-counter in 0.68s
+2022.06.27 13:56:33 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:56:33 INFO  time: compiled scala-eventsourced-counter in 0.65s
+2022.06.27 13:57:07 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:07 INFO  time: compiled scala-eventsourced-counter in 65ms
+2022.06.27 13:57:10 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:10 INFO  time: compiled scala-eventsourced-counter in 89ms
+2022.06.27 13:57:14 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:14 INFO  time: compiled scala-eventsourced-counter in 69ms
+2022.06.27 13:57:16 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:16 INFO  time: compiled scala-eventsourced-counter in 90ms
+2022.06.27 13:57:18 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:18 INFO  time: compiled scala-eventsourced-counter in 80ms
+2022.06.27 13:57:20 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:20 INFO  time: compiled scala-eventsourced-counter in 85ms
+2022.06.27 13:57:21 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:21 INFO  time: compiled scala-eventsourced-counter in 79ms
+2022.06.27 13:57:22 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:22 INFO  time: compiled scala-eventsourced-counter in 69ms
+2022.06.27 13:57:24 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:24 INFO  time: compiled scala-eventsourced-counter in 53ms
+2022.06.27 13:57:37 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:37 INFO  time: compiled scala-eventsourced-counter in 89ms
+2022.06.27 13:57:42 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:42 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 13:57:47 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:47 INFO  time: compiled scala-eventsourced-counter in 0.64s
+2022.06.27 13:57:57 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:57:57 INFO  time: compiled scala-eventsourced-counter in 85ms
+2022.06.27 13:58:01 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:01 INFO  time: compiled scala-eventsourced-counter in 73ms
+2022.06.27 13:58:02 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:02 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 13:58:06 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:06 INFO  time: compiled scala-eventsourced-counter in 70ms
+2022.06.27 13:58:09 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:09 INFO  time: compiled scala-eventsourced-counter in 67ms
+2022.06.27 13:58:46 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:46 INFO  time: compiled scala-eventsourced-counter in 85ms
+2022.06.27 13:58:48 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:48 INFO  time: compiled scala-eventsourced-counter in 69ms
+2022.06.27 13:58:51 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:51 INFO  time: compiled scala-eventsourced-counter in 99ms
+2022.06.27 13:58:59 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:58:59 INFO  time: compiled scala-eventsourced-counter in 0.9s
+2022.06.27 13:59:01 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:59:01 INFO  time: compiled scala-eventsourced-counter in 87ms
+2022.06.27 13:59:02 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:59:02 INFO  time: compiled scala-eventsourced-counter in 47ms
+2022.06.27 13:59:03 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 13:59:03 INFO  time: compiled scala-eventsourced-counter in 0.65s
+2022.06.27 14:07:23 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:23 INFO  time: compiled scala-eventsourced-counter in 75ms
+2022.06.27 14:07:24 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:24 INFO  time: compiled scala-eventsourced-counter in 0.79s
+2022.06.27 14:07:28 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:28 INFO  time: compiled scala-eventsourced-counter in 0.62s
+2022.06.27 14:07:34 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:34 INFO  time: compiled scala-eventsourced-counter in 52ms
+2022.06.27 14:07:37 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:37 INFO  time: compiled scala-eventsourced-counter in 74ms
+2022.06.27 14:07:39 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:39 INFO  time: compiled scala-eventsourced-counter in 52ms
+2022.06.27 14:07:42 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:42 INFO  time: compiled scala-eventsourced-counter in 0.71s
+2022.06.27 14:07:43 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:43 INFO  time: compiled scala-eventsourced-counter in 74ms
+2022.06.27 14:07:44 WARN  Could not load snapshot text for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala
+2022.06.27 14:07:47 WARN  Could not load snapshot text for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala
+2022.06.27 14:07:48 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:48 INFO  time: compiled scala-eventsourced-counter in 72ms
+2022.06.27 14:07:48 WARN  Could not load snapshot text for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala
+2022.06.27 14:07:49 WARN  Could not load snapshot text for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala
+2022.06.27 14:07:50 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:50 INFO  time: compiled scala-eventsourced-counter in 51ms
+2022.06.27 14:07:50 WARN  Could not load snapshot text for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala
+2022.06.27 14:07:50 WARN  Could not load snapshot text for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala
+2022.06.27 14:07:51 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:07:51 INFO  time: compiled scala-eventsourced-counter in 0.67s
+2022.06.27 14:08:03 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:08:03 INFO  time: compiled scala-eventsourced-counter in 0.92s
+2022.06.27 14:08:20 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:08:20 INFO  time: compiled scala-eventsourced-counter in 0.62s
+2022.06.27 14:09:33 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:33 INFO  time: compiled scala-eventsourced-counter in 82ms
+2022.06.27 14:09:34 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:34 INFO  time: compiled scala-eventsourced-counter in 51ms
+2022.06.27 14:09:41 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:41 INFO  time: compiled scala-eventsourced-counter in 83ms
+2022.06.27 14:09:44 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:44 INFO  time: compiled scala-eventsourced-counter in 49ms
+2022.06.27 14:09:46 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:46 INFO  time: compiled scala-eventsourced-counter in 78ms
+2022.06.27 14:09:48 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:48 INFO  time: compiled scala-eventsourced-counter in 82ms
+2022.06.27 14:09:51 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:51 INFO  time: compiled scala-eventsourced-counter in 66ms
+2022.06.27 14:09:54 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:54 INFO  time: compiled scala-eventsourced-counter in 80ms
+2022.06.27 14:09:57 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:09:57 INFO  time: compiled scala-eventsourced-counter in 71ms
+2022.06.27 14:10:06 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:06 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 14:10:10 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:10 INFO  time: compiled scala-eventsourced-counter in 0.68s
+2022.06.27 14:10:12 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:12 INFO  time: compiled scala-eventsourced-counter in 94ms
+2022.06.27 14:10:13 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:13 INFO  time: compiled scala-eventsourced-counter in 61ms
+2022.06.27 14:10:14 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:14 INFO  time: compiled scala-eventsourced-counter in 83ms
+2022.06.27 14:10:17 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:17 INFO  time: compiled scala-eventsourced-counter in 54ms
+2022.06.27 14:10:19 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:10:19 INFO  time: compiled scala-eventsourced-counter in 0.65s
+2022.06.27 14:11:00 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:11:00 INFO  time: compiled scala-eventsourced-counter in 0.7s
+2022.06.27 14:11:07 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:11:07 INFO  time: compiled scala-eventsourced-counter in 0.11s
+2022.06.27 14:11:11 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:11:11 INFO  time: compiled scala-eventsourced-counter in 64ms
+2022.06.27 14:11:15 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:11:15 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 14:11:19 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:11:19 INFO  time: compiled scala-eventsourced-counter in 0.68s
+2022.06.27 14:11:50 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:11:50 INFO  time: compiled scala-eventsourced-counter in 72ms
+2022.06.27 14:12:01 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:01 INFO  time: compiled scala-eventsourced-counter in 94ms
+2022.06.27 14:12:13 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:13 INFO  time: compiled scala-eventsourced-counter in 70ms
+2022.06.27 14:12:15 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:15 INFO  time: compiled scala-eventsourced-counter in 61ms
+2022.06.27 14:12:21 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:21 INFO  time: compiled scala-eventsourced-counter in 65ms
+2022.06.27 14:12:26 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:26 INFO  time: compiled scala-eventsourced-counter in 72ms
+2022.06.27 14:12:29 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:29 INFO  time: compiled scala-eventsourced-counter in 63ms
+2022.06.27 14:12:36 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:36 INFO  time: compiled scala-eventsourced-counter in 70ms
+2022.06.27 14:12:38 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:38 INFO  time: compiled scala-eventsourced-counter in 67ms
+2022.06.27 14:12:41 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:41 INFO  time: compiled scala-eventsourced-counter in 93ms
+2022.06.27 14:12:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:5: stale bloop error: not found: value logger
+    logger.info(s"Received add event: ")
+    ^^^^^^
+2022.06.27 14:12:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:5: stale bloop error: not found: value logger
+    logger.info(s"Received add event: ")
+    ^^^^^^
+2022.06.27 14:12:47 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:47 INFO  time: compiled scala-eventsourced-counter in 78ms
+2022.06.27 14:12:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:5: stale bloop error: not found: value logger
+    logger.info(s"Received add event: $added")
+    ^^^^^^
+2022.06.27 14:12:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:5: stale bloop error: not found: value logger
+    logger.info(s"Received add event: $added")
+    ^^^^^^
+2022.06.27 14:12:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:5: stale bloop error: not found: value logger
+    logger.info(s"Received add event: $added")
+    ^^^^^^
+2022.06.27 14:12:55 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:19: stale bloop error: unclosed string literal
+    logger.info(s"Received add event: $")
+                  ^
+2022.06.27 14:12:55 INFO  time: compiled scala-eventsourced-counter in 52ms
+2022.06.27 14:12:56 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:19: stale bloop error: unclosed string literal
+    logger.info(s"Received add event: $")
+                  ^
+2022.06.27 14:12:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:19: stale bloop error: unclosed string literal
+    logger.info(s"Received add event: $")
+                  ^
+2022.06.27 14:12:56 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/actions/CounterOwnerTopicSubscriptionAction.scala:15:19: stale bloop error: unclosed string literal
+    logger.info(s"Received add event: $")
+                  ^
+2022.06.27 14:12:57 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:12:57 INFO  time: compiled scala-eventsourced-counter in 70ms
+2022.06.27 14:13:02 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:02 INFO  time: compiled scala-eventsourced-counter in 80ms
+2022.06.27 14:13:11 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:11 INFO  time: compiled scala-eventsourced-counter in 70ms
+2022.06.27 14:13:16 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:16 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 14:13:18 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:18 INFO  time: compiled scala-eventsourced-counter in 90ms
+2022.06.27 14:13:21 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:21 INFO  time: compiled scala-eventsourced-counter in 84ms
+2022.06.27 14:13:36 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:36 INFO  time: compiled scala-eventsourced-counter in 68ms
+2022.06.27 14:13:38 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:38 INFO  time: compiled scala-eventsourced-counter in 75ms
+2022.06.27 14:13:42 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:42 INFO  time: compiled scala-eventsourced-counter in 76ms
+2022.06.27 14:13:53 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:53 INFO  time: compiled scala-eventsourced-counter in 0.8s
+2022.06.27 14:13:59 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:13:59 INFO  time: compiled scala-eventsourced-counter in 0.68s
+2022.06.27 14:21:18 INFO  compiling scala-eventsourced-counter-test (25 scala sources)
+2022.06.27 14:21:22 INFO  time: compiled scala-eventsourced-counter-test in 3.79s
+2022.06.27 14:21:41 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:21:41 INFO  time: compiled scala-eventsourced-counter-test in 71ms
+Jun 27, 2022 2:21:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2429
+2022.06.27 14:21:51 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:21:51 INFO  time: compiled scala-eventsourced-counter-test in 65ms
+2022.06.27 14:21:55 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:21:55 INFO  time: compiled scala-eventsourced-counter-test in 0.13s
+2022.06.27 14:21:57 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:21:57 INFO  time: compiled scala-eventsourced-counter-test in 0.11s
+2022.06.27 14:22:00 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:00 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:22:07 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:07 INFO  time: compiled scala-eventsourced-counter-test in 0.11s
+2022.06.27 14:22:10 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:10 INFO  time: compiled scala-eventsourced-counter-test in 56ms
+2022.06.27 14:22:11 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:11 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:22:17 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:17 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1", "testOwner")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:47 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:49 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:49 INFO  time: compiled scala-eventsourced-counter-test in 0.13s
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:54 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:83: stale bloop error: type mismatch;
+ found   : com.example.AddCounterOwner
+ required: String
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1")))
+                                                                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:7: stale bloop warning: local val result in value <local CounterOwnerSpec> is never used
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner("id1")))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:39:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:45:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:22:55 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:107: stale bloop error: unclosed string literal
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner(")))
+                                                                                                          ^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:107: stale bloop error: unclosed string literal
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner(")))
+                                                                                                          ^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:36:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.06.27 14:22:55 INFO  time: compiled scala-eventsourced-counter-test in 70ms
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:107: stale bloop error: unclosed string literal
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner(")))
+                                                                                                          ^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:36:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:35:107: stale bloop error: unclosed string literal
+      val result: EventSourcedResult[Empty] = testKit.add(example.AddCounterOwner(example.AddCounterOwner(")))
+                                                                                                          ^
+2022.06.27 14:22:55 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:36:5: stale bloop error: ')' expected but '}' found.
+    }
+    ^
+2022.06.27 14:22:56 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:56 INFO  time: compiled scala-eventsourced-counter-test in 84ms
+2022.06.27 14:22:59 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:22:59 INFO  time: compiled scala-eventsourced-counter-test in 56ms
+2022.06.27 14:23:00 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:00 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:23:03 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:03 INFO  time: compiled scala-eventsourced-counter-test in 0.11s
+2022.06.27 14:23:07 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:07 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:23:09 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:09 INFO  time: compiled scala-eventsourced-counter-test in 53ms
+2022.06.27 14:23:11 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:11 INFO  time: compiled scala-eventsourced-counter-test in 0.13s
+2022.06.27 14:23:14 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:14 INFO  time: compiled scala-eventsourced-counter-test in 0.14s
+2022.06.27 14:23:16 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:16 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:23:37 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:23:37 INFO  time: compiled scala-eventsourced-counter-test in 0.14s
+2022.06.27 14:24:03 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:03 INFO  time: compiled scala-eventsourced-counter-test in 0.13s
+2022.06.27 14:24:04 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:04 INFO  time: compiled scala-eventsourced-counter-test in 0.71s
+2022.06.27 14:24:12 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:12 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:24:17 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:17 INFO  time: compiled scala-eventsourced-counter-test in 63ms
+2022.06.27 14:24:21 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:21 INFO  time: compiled scala-eventsourced-counter-test in 0.84s
+2022.06.27 14:24:24 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:24 INFO  time: compiled scala-eventsourced-counter-test in 0.8s
+2022.06.27 14:24:31 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:31 INFO  time: compiled scala-eventsourced-counter-test in 0.89s
+2022.06.27 14:24:33 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:33 INFO  time: compiled scala-eventsourced-counter-test in 60ms
+2022.06.27 14:24:44 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:44 INFO  time: compiled scala-eventsourced-counter-test in 0.13s
+2022.06.27 14:24:46 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:24:46 INFO  time: compiled scala-eventsourced-counter-test in 0.7s
+2022.06.27 14:25:01 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:01 INFO  time: compiled scala-eventsourced-counter-test in 0.2s
+2022.06.27 14:25:06 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:06 INFO  time: compiled scala-eventsourced-counter-test in 0.15s
+2022.06.27 14:25:08 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:08 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:25:16 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:16 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:25:18 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:18 INFO  time: compiled scala-eventsourced-counter-test in 0.13s
+2022.06.27 14:25:19 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:19 INFO  time: compiled scala-eventsourced-counter-test in 0.74s
+2022.06.27 14:25:23 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:23 INFO  time: compiled scala-eventsourced-counter-test in 0.75s
+2022.06.27 14:25:25 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:25 INFO  time: compiled scala-eventsourced-counter-test in 0.86s
+2022.06.27 14:25:29 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:29 INFO  time: compiled scala-eventsourced-counter-test in 0.76s
+2022.06.27 14:25:40 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:40 INFO  time: compiled scala-eventsourced-counter-test in 0.78s
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:33:7: stale bloop warning: local val testOwner in value <local CounterOwnerSpec> is never used
+      val testOwner = "test owner"
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:41:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:47:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:33:7: stale bloop warning: local val testOwner in value <local CounterOwnerSpec> is never used
+      val testOwner = "test owner"
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:41:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:44 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:47:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:33:7: stale bloop warning: local val testOwner in value <local CounterOwnerSpec> is never used
+      val testOwner = "test owner"
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:41:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:47:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:33:7: stale bloop warning: local val testOwner in value <local CounterOwnerSpec> is never used
+      val testOwner = "test owner"
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:41:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:47:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:33:7: stale bloop warning: local val testOwner in value <local CounterOwnerSpec> is never used
+      val testOwner = "test owner"
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:41:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:47:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:5:1: stale bloop warning: Unused import
+import kalix.scalasdk.eventsourcedentity.EventSourcedEntity
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:18:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:33:7: stale bloop warning: local val testOwner in value <local CounterOwnerSpec> is never used
+      val testOwner = "test owner"
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:41:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:45 INFO  file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/test/scala/com/example/domain/CounterOwnerSpec.scala:47:7: stale bloop warning: local val testKit in value <local CounterOwnerSpec> is never used
+      val testKit = CounterOwnerTestKit(new CounterOwner(_))
+      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2022.06.27 14:25:47 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:47 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:25:49 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:49 INFO  time: compiled scala-eventsourced-counter-test in 0.72s
+2022.06.27 14:25:51 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:51 INFO  time: compiled scala-eventsourced-counter-test in 0.12s
+2022.06.27 14:25:53 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:25:53 INFO  time: compiled scala-eventsourced-counter-test in 0.72s
+2022.06.27 14:26:40 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:26:40 INFO  time: compiled scala-eventsourced-counter-test in 0.76s
+2022.06.27 14:26:42 INFO  compiling scala-eventsourced-counter-test (1 scala source)
+2022.06.27 14:26:42 INFO  time: compiled scala-eventsourced-counter-test in 0.27s
+2022.06.27 14:27:12 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:27:12 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:27:13 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:27:17 INFO  Trying to attach to remote debuggee VM localhost:62959 .
+2022.06.27 14:27:17 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:27:17 ERROR Uncaught exception when running com.example.domain.CounterOwnerSpec: java.lang.NoSuchMethodError: 'java.lang.String com.example.domain.CounterOwnerState$.apply$default$1()'
+2022.06.27 14:27:17 ERROR Test suite aborted
+2022.06.27 14:27:18 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:27:18 INFO  Closing debug server tcp://0.0.0.0:62954
+2022.06.27 14:29:47 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:29:47 INFO  time: compiled scala-eventsourced-counter in 0.73s
+2022.06.27 14:30:02 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3h 49m 2.445s)
+2022.06.27 14:30:02 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:30:02 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:30:02 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:30:05 INFO  Trying to attach to remote debuggee VM localhost:63039 .
+2022.06.27 14:30:05 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:30:05 ERROR Uncaught exception when running com.example.domain.CounterOwnerSpec: java.lang.NoSuchMethodError: 'scalapb.UnknownFieldSet com.example.domain.CounterOwnerState$.apply$default$2()'
+2022.06.27 14:30:05 ERROR Test suite aborted
+2022.06.27 14:30:06 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:30:05 INFO  Closing debug server tcp://0.0.0.0:63034
+2022.06.27 14:30:37 INFO  compiling scala-eventsourced-counter (1 scala source)
+2022.06.27 14:30:37 INFO  time: compiled scala-eventsourced-counter in 0.75s
+2022.06.27 14:30:41 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3h 49m 41.97s)
+2022.06.27 14:30:41 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3h 49m 42.002s)
+2022.06.27 14:30:42 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:30:42 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:30:42 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:30:43 INFO  Trying to attach to remote debuggee VM localhost:63077 .
+2022.06.27 14:30:43 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:30:43 ERROR Uncaught exception when running com.example.domain.CounterOwnerSpec: java.lang.NoSuchMethodError: 'java.lang.String com.example.domain.CounterOwnerState$.apply$default$1()'
+2022.06.27 14:30:43 ERROR Test suite aborted
+2022.06.27 14:30:44 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:30:43 INFO  Closing debug server tcp://0.0.0.0:63072
+2022.06.27 14:31:45 INFO  skipping build import with status 'Installed'
+2022.06.27 14:31:51 INFO  skipping build import with status 'Installed'
+2022.06.27 14:32:20 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3h 51m 20.806s)
+2022.06.27 14:32:20 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3h 51m 20.821s)
+2022.06.27 14:32:20 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:32:20 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:32:21 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:32:23 INFO  Trying to attach to remote debuggee VM localhost:63186 .
+2022.06.27 14:32:23 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:32:23 ERROR Uncaught exception when running com.example.domain.CounterOwnerSpec: java.lang.NoSuchMethodError: 'java.lang.String com.example.domain.CounterOwnerState$.apply$default$1()'
+2022.06.27 14:32:23 ERROR Test suite aborted
+2022.06.27 14:32:24 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:32:23 INFO  Closing debug server tcp://0.0.0.0:63181
+2022.06.27 14:33:04 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals17309719080566472808/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 14:33:05 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.27 14:33:06 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.27 14:33:08 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.27 14:33:08 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.27 14:33:08 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.27 14:33:08 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.27 14:33:10 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.27 14:33:10 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 2:33:10 PM
+2022.06.27 14:33:10 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.27 14:33:10 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.27 14:33:11 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.27 14:33:11 INFO  [success] Total time: 1 s, completed Jun 27, 2022, 2:33:12 PM
+2022.06.27 14:33:14 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.27 14:33:14 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.27 14:33:15 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.27 14:33:15 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.27 14:33:15 INFO  [success] Total time: 1 s, completed Jun 27, 2022, 2:33:15 PM
+2022.06.27 14:33:15 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.06.27 14:33:15 INFO  Disconnecting from Bloop session...
+2022.06.27 14:33:15 INFO  Shut down connection with build server.
+2022.06.27 14:33:15 INFO  Shut down connection with build server.
+2022.06.27 14:33:15 INFO  Shut down connection with build server.
+2022.06.27 14:33:15 INFO  Attempting to connect to the build server...
+2022.06.27 14:33:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 14:33:15 INFO  Attempting to connect to the build server...
+2022.06.27 14:33:15 INFO  Attempting to connect to the build server...
+2022.06.27 14:33:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 14:33:15 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 14:33:15 INFO  time: Connected to build server in 0.11s
+2022.06.27 14:33:15 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 14:33:18 INFO  time: indexed workspace in 2.91s
+2022.06.27 14:33:21 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:33:21 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:33:21 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:33:23 INFO  Trying to attach to remote debuggee VM localhost:63220 .
+2022.06.27 14:33:23 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:33:24 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:33:23 INFO  Closing debug server tcp://0.0.0.0:63215
+2022.06.27 14:36:46 INFO  skipping build import with status 'Installed'
+2022.06.27 14:36:58 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3m 43.037s)
+2022.06.27 14:36:58 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3m 43.053s)
+2022.06.27 14:36:58 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:36:58 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:36:59 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:37:01 INFO  Trying to attach to remote debuggee VM localhost:63336 .
+2022.06.27 14:37:01 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:37:02 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:37:02 INFO  Closing debug server tcp://0.0.0.0:63331
+2022.06.27 14:37:06 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3m 51.097s)
+2022.06.27 14:37:06 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3m 51.125s)
+2022.06.27 14:37:06 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 14:37:06 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 14:37:07 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:37:09 INFO  Trying to attach to remote debuggee VM localhost:63357 .
+2022.06.27 14:37:09 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 14:42:53 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 14:42:53 INFO  Closing debug server tcp://0.0.0.0:63352
+2022.06.27 14:45:30 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals17937773816136444735/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 14:45:32 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.27 14:45:34 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.27 14:45:35 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.27 14:45:35 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.27 14:45:35 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.27 14:45:35 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.27 14:45:38 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.27 14:45:38 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 2:45:38 PM
+2022.06.27 14:45:38 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.27 14:45:38 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.27 14:45:39 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.27 14:45:39 INFO  [success] Total time: 1 s, completed Jun 27, 2022, 2:45:40 PM
+2022.06.27 14:45:40 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.27 14:45:40 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.27 14:45:42 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.27 14:45:42 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.27 14:45:42 INFO  [success] Total time: 1 s, completed Jun 27, 2022, 2:45:42 PM
+2022.06.27 14:45:42 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.06.27 14:45:42 INFO  Disconnecting from Bloop session...
+2022.06.27 14:45:42 INFO  Shut down connection with build server.
+2022.06.27 14:45:42 INFO  Shut down connection with build server.
+2022.06.27 14:45:42 INFO  Shut down connection with build server.
+2022.06.27 14:45:42 INFO  Attempting to connect to the build server...
+2022.06.27 14:45:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 14:45:42 INFO  Attempting to connect to the build server...
+2022.06.27 14:45:42 INFO  Attempting to connect to the build server...
+2022.06.27 14:45:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 14:45:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 14:45:42 INFO  time: Connected to build server in 74ms
+2022.06.27 14:45:42 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 14:45:44 INFO  time: indexed workspace in 2.26s
+2022.06.27 14:45:47 INFO  time: code lens generation in 1.99s
+2022.06.27 16:18:26 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 1h 32m 44.531s)
+2022.06.27 16:18:26 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 1h 32m 44.621s)
+2022.06.27 16:18:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 16:18:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 16:18:27 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 16:18:31 INFO  Trying to attach to remote debuggee VM localhost:51327 .
+2022.06.27 16:18:31 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 16:18:32 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 16:18:32 INFO  Closing debug server tcp://0.0.0.0:51321
+2022.06.27 16:30:48 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals198853029191809242/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 16:30:49 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.27 16:30:51 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.27 16:30:53 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.27 16:30:53 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.27 16:30:53 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.27 16:30:53 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.27 16:30:56 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.27 16:30:56 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 4:30:56 PM
+2022.06.27 16:30:56 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.27 16:30:56 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.27 16:30:57 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.27 16:30:57 INFO  [success] Total time: 1 s, completed Jun 27, 2022, 4:30:57 PM
+2022.06.27 16:30:57 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.27 16:30:58 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.27 16:31:00 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.27 16:31:00 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.27 16:31:00 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 4:31:00 PM
+2022.06.27 16:31:00 INFO  time: ran 'sbt bloopInstall' in 11s
+2022.06.27 16:31:00 INFO  Disconnecting from Bloop session...
+2022.06.27 16:31:00 INFO  Shut down connection with build server.
+2022.06.27 16:31:00 INFO  Shut down connection with build server.
+2022.06.27 16:31:00 INFO  Shut down connection with build server.
+2022.06.27 16:31:00 INFO  Attempting to connect to the build server...
+2022.06.27 16:31:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:31:00 INFO  Attempting to connect to the build server...
+2022.06.27 16:31:00 INFO  Attempting to connect to the build server...
+2022.06.27 16:31:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:31:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:31:00 INFO  time: Connected to build server in 0.15s
+2022.06.27 16:31:00 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 16:31:03 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3.126s)
+2022.06.27 16:31:03 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3.143s)
+2022.06.27 16:31:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 16:31:04 INFO  time: indexed workspace in 3.37s
+2022.06.27 16:31:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 16:31:04 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 16:31:06 INFO  Trying to attach to remote debuggee VM localhost:51528 .
+2022.06.27 16:31:06 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 16:31:08 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 16:31:08 INFO  Closing debug server tcp://0.0.0.0:51521
+2022.06.27 16:36:44 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals12976613725682629950/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 16:36:46 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.27 16:36:48 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.27 16:36:49 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.27 16:36:49 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.27 16:36:49 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.27 16:36:49 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.27 16:36:52 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.27 16:36:52 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 4:36:52 PM
+2022.06.27 16:36:52 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.27 16:36:52 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.27 16:36:54 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.27 16:36:54 INFO  [success] Total time: 1 s, completed Jun 27, 2022, 4:36:54 PM
+2022.06.27 16:36:59 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.27 16:36:59 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.27 16:37:02 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.27 16:37:02 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.27 16:37:02 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 4:37:02 PM
+2022.06.27 16:37:02 INFO  time: ran 'sbt bloopInstall' in 17s
+2022.06.27 16:37:02 INFO  Disconnecting from Bloop session...
+2022.06.27 16:37:02 INFO  Shut down connection with build server.
+2022.06.27 16:37:02 INFO  Shut down connection with build server.
+2022.06.27 16:37:02 INFO  Shut down connection with build server.
+2022.06.27 16:37:02 INFO  Attempting to connect to the build server...
+2022.06.27 16:37:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:37:02 INFO  Attempting to connect to the build server...
+2022.06.27 16:37:02 INFO  Attempting to connect to the build server...
+2022.06.27 16:37:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:37:02 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:37:02 INFO  time: Connected to build server in 85ms
+2022.06.27 16:37:02 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 16:37:06 INFO  time: indexed workspace in 3.44s
+2022.06.27 16:37:50 INFO  compiling scala-eventsourced-counter (7 scala sources)
+2022.06.27 16:37:50 INFO  time: compiled scala-eventsourced-counter in 0.46s
+Jun 27, 2022 4:40:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: jar%3Afile%3A%2F%2F%2FUsers%2Fjackpines%2FLibrary%2FCaches%2FCoursier%2Fv1%2Fhttps%2Frepo.scala-sbt.org%2Fscalasbt%2Fsbt-plugin-releases%2Fcom.typesafe.sbt%2Fsbt-native-packager%2Fscala_2.12%2Fsbt_1.0%2F1.8.1%2Fsrcs%2Fsbt-native-packager-sources.jar%21%2Fcom%2Ftypesafe%2Fsbt%2Fpackager%2Fdocker%2FKeys.scala:8: error: ; expected but package found
+package packager
+^
+jar%3Afile%3A%2F%2F%2FUsers%2Fjackpines%2FLibrary%2FCaches%2FCoursier%2Fv1%2Fhttps%2Frepo.scala-sbt.org%2Fscalasbt%2Fsbt-plugin-releases%2Fcom.typesafe.sbt%2Fsbt-native-packager%2Fscala_2.12%2Fsbt_1.0%2F1.8.1%2Fsrcs%2Fsbt-native-packager-sources.jar%21%2Fcom%2Ftypesafe%2Fsbt%2Fpackager%2Fdocker%2FKeys.scala:8: error: ; expected but package found
+package packager
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.syntaxErrorExpected(ScalametaParser.scala:352)
+	at scala.meta.internal.parsers.ScalametaParser.accept(ScalametaParser.scala:356)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSep(ScalametaParser.scala:370)
+	at scala.meta.internal.parsers.ScalametaParser.acceptStatSepOpt(ScalametaParser.scala:374)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$14(ScalametaParser.scala:4308)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4308)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:296)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:337)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4256)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4261)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:132)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:56)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:51)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:129)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:203)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:54)
+
+2022.06.27 16:40:43 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 3m 40.83s)
+2022.06.27 16:40:43 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 3m 40.846s)
+2022.06.27 16:40:43 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 16:40:43 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 16:40:43 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 16:40:45 INFO  Trying to attach to remote debuggee VM localhost:51647 .
+2022.06.27 16:40:45 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 16:40:46 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 16:40:46 INFO  Closing debug server tcp://0.0.0.0:51642
+2022.06.27 16:42:25 INFO  running '/Users/jackpines/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/74/_wqnm94d7b1693rg690z2r740000gn/T/metals8298295481942607071/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2022.06.27 16:42:27 INFO  [info] welcome to sbt 1.6.2 (AdoptOpenJDK Java 11.0.10)
+2022.06.27 16:42:30 INFO  [info] loading global plugins from /Users/jackpines/.sbt/1.0/plugins
+2022.06.27 16:42:32 INFO  [info] loading settings for project scala-eventsourced-counter-build-build-build from metals.sbt ...
+2022.06.27 16:42:32 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/project
+2022.06.27 16:42:32 INFO  [info] loading settings for project scala-eventsourced-counter-build-build from metals.sbt ...
+2022.06.27 16:42:32 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project
+2022.06.27 16:42:36 INFO  [success] Generated .bloop/scala-eventsourced-counter-build-build.json
+2022.06.27 16:42:36 INFO  [success] Total time: 3 s, completed Jun 27, 2022, 4:42:36 PM
+2022.06.27 16:42:36 INFO  [info] loading settings for project scala-eventsourced-counter-build from metals.sbt,plugins.sbt ...
+2022.06.27 16:42:36 INFO  [info] loading project definition from /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project
+2022.06.27 16:42:38 INFO  [success] Generated .bloop/scala-eventsourced-counter-build.json
+2022.06.27 16:42:38 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 4:42:38 PM
+2022.06.27 16:42:39 INFO  [info] loading settings for project scala-eventsourced-counter from build.sbt ...
+2022.06.27 16:42:39 INFO  [info] set current project to eventsourcedentity-counter (in build file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/)
+2022.06.27 16:42:42 INFO  [success] Generated .bloop/scala-eventsourced-counter.json
+2022.06.27 16:42:42 INFO  [success] Generated .bloop/scala-eventsourced-counter-test.json
+2022.06.27 16:42:42 INFO  [success] Total time: 2 s, completed Jun 27, 2022, 4:42:42 PM
+2022.06.27 16:42:42 INFO  time: ran 'sbt bloopInstall' in 16s
+2022.06.27 16:42:42 INFO  Disconnecting from Bloop session...
+2022.06.27 16:42:42 INFO  Shut down connection with build server.
+2022.06.27 16:42:42 INFO  Shut down connection with build server.
+2022.06.27 16:42:42 INFO  Shut down connection with build server.
+2022.06.27 16:42:42 INFO  Attempting to connect to the build server...
+2022.06.27 16:42:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:42:42 INFO  Attempting to connect to the build server...
+2022.06.27 16:42:42 INFO  Attempting to connect to the build server...
+2022.06.27 16:42:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:42:42 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.27 16:42:42 INFO  time: Connected to build server in 96ms
+2022.06.27 16:42:42 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.27 16:42:46 INFO  time: indexed workspace in 3.4s
+Jun 27, 2022 4:42:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleNotification
+WARNING: Notification threw an exception: {
+  "jsonrpc": "2.0",
+  "method": "build/taskFinish",
+  "params": {
+    "taskId": {
+      "id": "1"
+    },
+    "eventTime": 1656373366369,
+    "message": "Compiled \u0027scala-eventsourced-counter\u0027",
+    "status": 1,
+    "dataKind": "compile-report",
+    "data": {
+      "target": {
+        "uri": "file:/Users/jackpines/src/Lightbend/scala-eventsourced-counter/?id\u003dscala-eventsourced-counter"
+      },
+      "errors": 0,
+      "warnings": 0,
+      "isNoOp": true,
+      "isLastCycle": true,
+      "clientDir": "file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/.bloop/scala-eventsourced-counter/bloop-bsp-clients-classes/classes-Metals-_hUimweXSaGgsQFLMdBi2w\u003d\u003d/",
+      "analysisOut": "file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/.bloop/scala-eventsourced-counter/scala-eventsourced-counter-analysis.bin"
+    }
+  }
+}
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.notify(GenericEndpoint.java:152)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleNotification(RemoteEndpoint.java:220)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:187)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.reflect.InvocationTargetException
+	at jdk.internal.reflect.GeneratedMethodAccessor106.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.lang.NullPointerException
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3(Compilers.scala:247)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$3$adapted(Compilers.scala:245)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2(Compilers.scala:245)
+	at scala.meta.internal.metals.Compilers.$anonfun$didCompile$2$adapted(Compilers.scala:244)
+	at scala.collection.mutable.HashSet$Node.foreach(HashSet.scala:435)
+	at scala.collection.mutable.HashSet.foreach(HashSet.scala:361)
+	at scala.meta.internal.metals.Compilers.didCompile(Compilers.scala:244)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12(MetalsLanguageServer.scala:438)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$updateWorkspaceDirectory$12$adapted(MetalsLanguageServer.scala:436)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$2(ForwardingMetalsBuildClient.scala:160)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1(ForwardingMetalsBuildClient.scala:157)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.$anonfun$buildTaskFinish$1$adapted(ForwardingMetalsBuildClient.scala:156)
+	at scala.Option.foreach(Option.scala:437)
+	at scala.meta.internal.metals.clients.language.ForwardingMetalsBuildClient.buildTaskFinish(ForwardingMetalsBuildClient.scala:156)
+	... 15 more
+
+Jun 27, 2022 4:49:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3648
+Jun 27, 2022 4:49:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3649
+2022.06.27 17:07:08 INFO  skipping build import with status 'Installed'
+2022.06.27 17:07:08 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 17:07:08 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 17:07:08 INFO  Starting debug proxy for [com.example.domain.CounterSpec()]
+2022.06.27 17:07:17 INFO  Trying to attach to remote debuggee VM localhost:52187 .
+2022.06.27 17:07:17 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 17:07:18 INFO  Canceling debug proxy for [com.example.domain.CounterSpec()]
+2022.06.27 17:07:18 INFO  Closing debug server tcp://0.0.0.0:52182
+2022.06.27 17:07:31 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 24m 49.338s)
+2022.06.27 17:07:31 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 17:07:31 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 17:07:32 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 17:07:36 INFO  Trying to attach to remote debuggee VM localhost:52202 .
+2022.06.27 17:07:36 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 17:07:37 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 17:07:37 INFO  Closing debug server tcp://0.0.0.0:52197
+Jun 27, 2022 5:09:39 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 27, 2022 5:10:01 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.27 17:17:18 INFO  skipping build import with status 'Installed'
+2022.06.27 17:17:40 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 34m 57.535s)
+2022.06.27 17:17:40 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 34m 57.551s)
+2022.06.27 17:17:40 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 17:17:40 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 17:17:40 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 17:17:42 INFO  Trying to attach to remote debuggee VM localhost:52309 .
+2022.06.27 17:17:42 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 17:17:43 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 17:17:43 INFO  Closing debug server tcp://0.0.0.0:52304
+2022.06.27 17:18:02 INFO  compiling scala-eventsourced-counter (7 scala sources)
+2022.06.27 17:18:03 INFO  compiling scala-eventsourced-counter-test (8 scala sources)
+2022.06.27 17:18:03 INFO  time: compiled scala-eventsourced-counter in 1.21s
+2022.06.27 17:18:03 INFO  time: compiled scala-eventsourced-counter-test in 0.81s
+2022.06.27 17:18:16 INFO  Deduplicating compilation of scala-eventsourced-counter from bsp client 'Metals 0.11.6' (since 35m 33.608s)
+2022.06.27 17:18:16 INFO  Deduplicating compilation of scala-eventsourced-counter-test from bsp client 'Metals 0.11.6' (since 35m 33.63s)
+2022.06.27 17:18:16 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-server.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2022.06.27 17:18:16 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/dap-client.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2022.06.27 17:18:16 INFO  Starting debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 17:18:18 INFO  Trying to attach to remote debuggee VM localhost:52337 .
+2022.06.27 17:18:18 INFO  Attaching to debuggee VM succeeded.
+2022.06.27 17:18:19 INFO  Canceling debug proxy for [com.example.domain.CounterOwnerSpec()]
+2022.06.27 17:18:19 INFO  Closing debug server tcp://0.0.0.0:52331
+Jun 28, 2022 9:32:04 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:33:46 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:33:48 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:33:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:33:54 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:34:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:34:31 AM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/test/com/example/domain/CounterState.scala
+java.nio.file.NoSuchFileException: /Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/test/com/example/domain/CounterState.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:123)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:107)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Jun 28, 2022 9:35:01 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:35:17 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:35:19 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:35:22 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:35:25 AM scala.meta.internal.metals.Docstrings indexSymbol
+SEVERE: file:///Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/main/com/example/IncreaseValue.scala
+java.nio.file.NoSuchFileException: /Users/jackpines/src/Lightbend/scala-eventsourced-counter/target/scala-2.13/akka-grpc/main/com/example/IncreaseValue.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:116)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:219)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3206)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.CommonMtagsEnrichments$XtensionAbsolutePath.toInput(CommonMtagsEnrichments.scala:527)
+	at scala.meta.internal.metals.Docstrings.indexSymbolDefinition(Docstrings.scala:123)
+	at scala.meta.internal.metals.Docstrings.indexSymbol(Docstrings.scala:107)
+	at scala.meta.internal.metals.Docstrings.documentation(Docstrings.scala:44)
+	at scala.meta.internal.metals.MetalsSymbolSearch.documentation(MetalsSymbolSearch.scala:42)
+	at scala.meta.internal.pc.MetalsGlobal.symbolDocumentation(MetalsGlobal.scala:167)
+	at scala.meta.internal.pc.Signatures$SignaturePrinter.<init>(Signatures.scala:277)
+	at scala.meta.internal.pc.HoverProvider.toHover(HoverProvider.scala:237)
+	at scala.meta.internal.pc.HoverProvider.hoverOffset(HoverProvider.scala:69)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:22)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$hover$1(ScalaPresentationCompiler.scala:192)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withNonInterruptableCompiler$1(CompilerAccess.scala:125)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:139)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Jun 28, 2022 9:36:15 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:36:40 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:36:45 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:36:50 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:37:51 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:37:53 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:37:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2022.06.28 09:38:22 INFO  Shut down connection with build server.
+2022.06.28 09:38:22 INFO  Shut down connection with build server.
+2022.06.28 09:38:22 INFO  Shut down connection with build server.
+2022.06.28 09:38:51 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/lsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.28 09:38:52 INFO  logging to file /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/metals.log
+2022.06.28 09:38:52 INFO  Started: Metals version 0.11.6 in workspace '/Users/jackpines/src/Lightbend/scala-eventsourced-counter' for client Visual Studio Code 1.68.1.
+2022.06.28 09:38:54 INFO  time: initialize in 1.55s
+2022.06.28 09:38:55 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.28 09:38:56 INFO  Attempting to connect to the build server...
+2022.06.28 09:38:56 INFO  skipping build import with status 'Installed'
+2022.06.28 09:38:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 09:38:58 INFO  Attempting to connect to the build server...
+2022.06.28 09:38:58 INFO  Attempting to connect to the build server...
+2022.06.28 09:38:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 09:38:58 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 09:38:58 INFO  time: Connected to build server in 2.02s
+2022.06.28 09:38:58 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.28 09:38:58 INFO  time: Imported build in 0.12s
+Jun 28, 2022 9:39:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Jun 28, 2022 9:39:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Jun 28, 2022 9:39:05 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2022.06.28 09:39:06 INFO  Disconnecting from Bloop session...
+2022.06.28 09:39:06 INFO  Shut down connection with build server.
+2022.06.28 09:39:06 INFO  Shut down connection with build server.
+2022.06.28 09:39:06 INFO  Shut down connection with build server.
+2022.06.28 09:39:06 INFO  Attempting to connect to the build server...
+2022.06.28 09:39:10 INFO  time: indexed workspace in 12s
+2022.06.28 09:39:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 09:39:11 INFO  Attempting to connect to the build server...
+2022.06.28 09:39:11 INFO  Attempting to connect to the build server...
+2022.06.28 09:39:11 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 09:39:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.28 09:39:12 INFO  time: Connected to build server in 5.69s
+2022.06.28 09:39:12 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.28 09:39:14 INFO  time: Imported build in 0.25s
+2022.06.28 09:39:21 INFO  time: indexed workspace in 6.29s
+error: /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/.tmp/.metals/.tmp/Main835711109953459195.scala is not a file
+Jun 28, 2022 9:43:10 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:43:13 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:43:24 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:43:28 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:43:31 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:43:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:43:35 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:45:20 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 9:45:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 28, 2022 1:01:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package com.example.domain;
+
+message CounterOwnerState {
+  string name = 1;
+}
+
+message CounterOwnerAdded {
+  string name = 1;
+}
+
+message CounterOwnerDeleted {
+}

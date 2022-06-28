@@ -1,0 +1,42 @@
+syntax = "proto3";
+
+import "google/protobuf/empty.proto";
+import "kalix/annotations.proto";
+import "google/api/annotations.proto";
+
+package com.example;
+
+message AddCounterOwner {
+  string counter_id = 1 [(kalix.field).entity_key = true];
+  string name = 2;
+}
+
+message DeleteCounterOwner {
+  string counter_id = 1 [(kalix.field).entity_key = true];
+}
+
+message GetCounterOwner {
+  string counter_id = 1 [(kalix.field).entity_key = true];
+}
+
+message CounterOwner {
+  string name = 1;
+}
+
+service CounterOwnerService {
+  option (kalix.codegen) = {
+    event_sourced_entity: {
+      name: "com.example.domain.CounterOwner"
+      entity_type: "counterOwner"
+      state: "com.example.domain.CounterOwnerState"
+      events: [
+        "com.example.domain.CounterOwnerAdded",
+        "com.example.domain.CounterOwnerDeleted"
+      ]
+    }
+  };
+
+  rpc Add(AddCounterOwner) returns (google.protobuf.Empty);
+  rpc Delete(DeleteCounterOwner) returns (google.protobuf.Empty);
+  rpc GetOwner(GetCounterOwner) returns (CounterOwner);
+}
