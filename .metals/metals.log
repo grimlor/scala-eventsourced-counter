@@ -1715,3 +1715,36 @@ Jun 28, 2022 9:45:25 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notif
 INFO: Unsupported notification method: $/setTrace
 Jun 28, 2022 1:01:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+2022.06.30 10:20:55 INFO  Shut down connection with build server.
+2022.06.30 10:20:55 INFO  Shut down connection with build server.
+2022.06.30 10:20:55 INFO  Shut down connection with build server.
+2022.06.30 10:24:25 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/lsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/lsp.trace.json
+2022.06.30 10:24:28 INFO  logging to file /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/metals.log
+2022.06.30 10:24:28 INFO  Started: Metals version 0.11.6 in workspace '/Users/jackpines/src/Lightbend/scala-eventsourced-counter' for client Visual Studio Code 1.68.1.
+2022.06.30 10:24:31 INFO  time: initialize in 3.06s
+2022.06.30 10:24:33 WARN  Flyway upgrade recommended: H2 2.1.212 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 2.1.210.
+2022.06.30 10:24:34 INFO  Attempting to connect to the build server...
+2022.06.30 10:24:34 INFO  skipping build import with status 'Installed'
+2022.06.30 10:24:45 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.30 10:24:46 INFO  Attempting to connect to the build server...
+2022.06.30 10:24:46 INFO  Attempting to connect to the build server...
+2022.06.30 10:24:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.30 10:24:46 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/jackpines/src/Lightbend/scala-eventsourced-counter/project/project/.metals/bsp.trace.json or /Users/jackpines/Library/Caches/org.scalameta.metals/bsp.trace.json
+2022.06.30 10:24:46 INFO  time: Connected to build server in 12s
+2022.06.30 10:24:46 INFO  Connected to Build server: Bloop v1.5.0-18-003e6c7b
+2022.06.30 10:24:58 INFO  no build target found for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/Counter.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.30 10:24:58 INFO  time: code lens generation in 14s
+2022.06.30 10:24:58 INFO  time: Imported build in 0.2s
+2022.06.30 10:25:07 INFO  no build target found for /Users/jackpines/src/Lightbend/scala-eventsourced-counter/src/main/scala/com/example/domain/CounterOwner.scala. Using presentation compiler with project's scala-library version: 3.1.2
+2022.06.30 10:25:17 INFO  time: code lens generation in 32s
+2022.06.30 10:25:36 INFO  time: indexed workspace in 36s
+Jun 30, 2022 10:32:57 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 30, 2022 10:33:00 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 30, 2022 10:33:29 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jun 30, 2022 10:33:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Jul 01, 2022 3:06:38 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
